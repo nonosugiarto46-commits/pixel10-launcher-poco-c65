@@ -21,7 +21,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip Pixel10-Launcher-POCO-C65.zip -d project
+          unzip Pixel10-Launcher-POCO-C65-v2.zip -d project
       - name: Build APK
         working-directory: project
         run: gradle assembleDebug
